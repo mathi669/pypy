@@ -27,7 +27,7 @@ def convert_to_server_timezone(date_str, server_timezone):
     return {"02RESP": "SUCCESS", "03LOG": date_format, "Time Difference (seconds)": time_difference_seconds}
 
 # Ejemplo de uso
-date_maintenance = "01/09/2024 16:40"
+date_maintenance = "01/22/2024 19:40"
 server_timezone = "America/New_York"
 
 result = convert_to_server_timezone(date_maintenance, server_timezone)
